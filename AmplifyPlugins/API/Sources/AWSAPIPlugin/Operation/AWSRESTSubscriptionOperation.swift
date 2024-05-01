@@ -10,7 +10,7 @@ import Amplify
 
 public class RESTSubscriptionOperation: AmplifyInProcessReportingOperation<
     RESTOperationRequest,
-    RESTSubscriptionEvent,
+    Data,
     Data,
     APIError
 > { }
