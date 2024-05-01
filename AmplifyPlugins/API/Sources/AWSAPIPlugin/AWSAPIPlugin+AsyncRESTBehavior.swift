@@ -9,7 +9,7 @@ import Foundation
 import Amplify
 
 public extension AWSAPIPlugin {
-    func subscribe(
+    func stream(
         request: RESTRequest,
         operationType: RESTOperationType,
         valueListener: RESTSubscriptionOperation.InProcessListener?,
