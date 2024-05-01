@@ -36,7 +36,7 @@ extension AWSRESTSubscriptionOperation: APIOperation {
             return
         }
 
-        dispatchInProcess(data: .data(data))
+        dispatchInProcess(data: data)
         self.data.append(data)
     }
 
