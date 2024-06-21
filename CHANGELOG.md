@@ -1,5 +1,91 @@
 # Changelog
 
+## 2.35.3 (2024-06-13)
+
+### Bug Fixes
+
+- **Auth**: Adding credentialsProvider to Cognito clients (#3745)
+
+## 2.35.2 (2024-06-10)
+
+### Bug Fixes
+
+- resolve strict concurrency errors (#3731)
+
+## 2.35.1 (2024-06-04)
+
+### Bug Fixes
+
+- **datastore**: reconnect the AppSyncRealTimeClient once connection is stale (#3734)
+
+## 2.35.0 (2024-06-04)
+
+### Features
+
+- **datastore**: refactor datastore category to use APICategoryGraphQLBehavior (#3666)
+
+### Bug Fixes
+
+- **ci**: update unstable release file path in CI scripts (#3737)
+
+## 2.34.4 (2024-06-03)
+
+## 2.34.3 (2024-05-30)
+
+### Bug Fixes
+
+- **logging**: logLevel `.none` should not produce logs (#3728)
+
+## 2.34.2 (2024-05-28)
+
+### Bug Fixes
+
+- **datastore**: change OutgoingMutationQueue use TaskQueue for state transitions (#3720)
+
+## 2.34.1 (2024-05-22)
+
+### Bug Fixes
+
+- **Auth**: Fix Hosted UI continuation error (#3715)
+
+## 2.34.0 (2024-05-22)
+
+### Features
+
+- Updating SQLite.swift to 0.15.3 (#3655)
+
+### Bug Fixes
+
+- **API**: pass authMode used for lazy loading functionality (#3690)
+
+## 2.33.6 (2024-05-15)
+
+## 2.33.5 (2024-05-14)
+
+### Bug Fixes
+
+- **predictions**: update liveness websocket send event to be synchronous (#3693)
+
+## 2.33.4 (2024-05-08)
+
+### Bug Fixes
+
+- **auth**: configure with standardAttributes snake case values (#3686)
+- **datastore**: memory leak in ModelSyncedEventEmitter (#3675)
+
+## 2.33.3 (2024-05-03)
+
+### Bug Fixes
+
+- **auth**: Using a custom Foundation-based HTTPClient for HTTP Requests (#3582)
+
+## 2.33.2 (2024-05-02)
+
+### Bug Fixes
+
+- **Auth**: Add keychain logging for better debugging (#3669)
+- **core**: potential memory leak in WebSocketClient (#3624)
+
 ## 2.33.1 (2024-05-01)
 
 ### Bug Fixes
