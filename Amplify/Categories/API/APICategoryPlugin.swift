@@ -16,16 +16,3 @@ public extension APICategoryPlugin {
         return .api
     }
 }
-
-import AWSAPIPlugin
-
-
-public extension AWSAPIPlugin {
-    public func printPluginConfig() {
-        print(pluginConfig)
-    }
-    
-    public func printPluginConfigEndpoints() {
-        print(pluginConfig.endpoints)
-    }
-}

@@ -82,3 +82,13 @@ extension URLSessionFactory {
 }
 
 extension AWSAPIPlugin: AmplifyVersionable { }
+
+public extension AWSAPIPlugin {
+    func printPluginConfig() {
+        print(pluginConfig)
+    }
+    
+    func printPluginConfigEndpoints() {
+        print(pluginConfig.endpoints)
+    }
+}
